@@ -1,0 +1,12 @@
+/Users/daniel/Desktop/SexySQL/SexySQL/bin/Debug/netcoreapp3.1/SexySQL.deps.json
+/Users/daniel/Desktop/SexySQL/SexySQL/bin/Debug/netcoreapp3.1/SexySQL.runtimeconfig.json
+/Users/daniel/Desktop/SexySQL/SexySQL/bin/Debug/netcoreapp3.1/SexySQL.runtimeconfig.dev.json
+/Users/daniel/Desktop/SexySQL/SexySQL/bin/Debug/netcoreapp3.1/SexySQL.dll
+/Users/daniel/Desktop/SexySQL/SexySQL/bin/Debug/netcoreapp3.1/SexySQL.pdb
+/Users/daniel/Desktop/SexySQL/SexySQL/obj/Debug/netcoreapp3.1/SexySQL.csprojAssemblyReference.cache
+/Users/daniel/Desktop/SexySQL/SexySQL/obj/Debug/netcoreapp3.1/SexySQL.AssemblyInfoInputs.cache
+/Users/daniel/Desktop/SexySQL/SexySQL/obj/Debug/netcoreapp3.1/SexySQL.AssemblyInfo.cs
+/Users/daniel/Desktop/SexySQL/SexySQL/obj/Debug/netcoreapp3.1/SexySQL.csproj.CoreCompileInputs.cache
+/Users/daniel/Desktop/SexySQL/SexySQL/obj/Debug/netcoreapp3.1/SexySQL.dll
+/Users/daniel/Desktop/SexySQL/SexySQL/obj/Debug/netcoreapp3.1/SexySQL.pdb
+/Users/daniel/Desktop/SexySQL/SexySQL/obj/Debug/netcoreapp3.1/SexySQL.genruntimeconfig.cache

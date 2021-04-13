@@ -10,11 +10,18 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/Downloads/Telegram Desktop/Program (3).cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/Telegram Desktop/Program (2).cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/SexySQL/SiteRequester.cs" />
       <option value="$PROJECT_DIR$/SexySQL/CurrencyDataParser.cs" />
       <option value="$PROJECT_DIR$/SexySQL/Database.cs" />
+      <option value="$PROJECT_DIR$/SexySQL/CurrencyData.cs" />
+      <option value="$USER_HOME$/Downloads/Telegram Desktop/Program (2).cs" />
+      <option value="$PROJECT_DIR$/SexySQL/SiteRequester.cs" />
+      <option value="$PROJECT_DIR$/SexySQL/Program.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1r7cHPFC1PMTEEJqm3E1XCWdQsW" />
@@ -58,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618330479781</updated>
-      <workItem from="1618330484260" duration="249000" />
+      <workItem from="1618330484260" duration="1799000" />
     </task>
     <servers />
   </component>
