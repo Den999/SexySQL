@@ -1,3 +1,5 @@
+using System;
+
 namespace SexySQL
 {
     public class CurrencyData
