@@ -5,26 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="372d74fd-61a4-42a5-91e8-dab5809f7850" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SexySQL/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SexySQL/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SexySQL/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SexySQL/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SexySQL/CurrencyDataParser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SexySQL/CurrencyDataParser.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SexySQL/Database.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SexySQL/Database.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SexySQL/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SexySQL/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SexySQL/SiteRequester.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SexySQL/SiteRequester.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SexySQL/bin/Debug/netcoreapp3.1/SexySQL.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/SexySQL/bin/Debug/netcoreapp3.1/SexySQL.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SexySQL/bin/Debug/netcoreapp3.1/SexySQL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SexySQL/bin/Debug/netcoreapp3.1/SexySQL.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SexySQL/bin/Debug/netcoreapp3.1/SexySQL.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/SexySQL/bin/Debug/netcoreapp3.1/SexySQL.runtimeconfig.dev.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SexySQL/obj/Debug/netcoreapp3.1/SexySQL.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SexySQL/obj/Debug/netcoreapp3.1/SexySQL.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SexySQL/obj/Debug/netcoreapp3.1/SexySQL.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SexySQL/obj/Debug/netcoreapp3.1/SexySQL.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SexySQL/obj/Debug/netcoreapp3.1/SexySQL.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SexySQL/obj/Debug/netcoreapp3.1/SexySQL.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SexySQL/obj/Debug/netcoreapp3.1/SexySQL.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SexySQL/obj/Debug/netcoreapp3.1/SexySQL.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SexySQL/obj/Debug/netcoreapp3.1/SexySQL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SexySQL/obj/Debug/netcoreapp3.1/SexySQL.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SexySQL/obj/SexySQL.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/SexySQL/obj/SexySQL.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SexySQL/obj/SexySQL.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/SexySQL/obj/SexySQL.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SexySQL/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/SexySQL/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SexySQL/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SexySQL/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SexySQL/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/SexySQL/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SexySQL/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/SexySQL/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,8 +26,8 @@
       <option value="$USER_HOME$/Downloads/Telegram Desktop/Program (2).cs" />
       <option value="$PROJECT_DIR$/.gitignore" />
       <option value="$PROJECT_DIR$/SexySQL/SiteRequester.cs" />
-      <option value="$PROJECT_DIR$/SexySQL/Program.cs" />
       <option value="$PROJECT_DIR$/SexySQL/CurrencyDataParser.cs" />
+      <option value="$PROJECT_DIR$/SexySQL/Program.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1r7cHPFC1PMTEEJqm3E1XCWdQsW" />
@@ -93,7 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1618330479781</updated>
       <workItem from="1618330484260" duration="1799000" />
-      <workItem from="1618334169655" duration="3529000" />
+      <workItem from="1618334169655" duration="3796000" />
     </task>
     <servers />
   </component>
@@ -106,23 +88,6 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/SexySQL/Program.cs</url>
-          <line>17</line>
-          <properties documentPath="$PROJECT_DIR$/SexySQL/Program.cs" initialLine="17" containingFunctionPresentation="method 'Main'">
-            <startOffsets>
-              <option value="542" />
-            </startOffsets>
-            <endOffsets>
-              <option value="543" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="Frame#System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw" memberName="this" />
