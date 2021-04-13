@@ -22,6 +22,8 @@ namespace SexySQL
         public async Task<string> Run()
         {
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create("http://api.exchangeratesapi.io/v1/latest?access_key=7b952c894419b83114c5ddb67c6b757e&format=1");
+            //HttpWebRequest request = (HttpWebRequest)WebRequest.Create("http://api.exchangeratesapi.io/v1/latest?access_key=7b952c894419b83114c5ddb67c6b757e&base=RUB&symbols=USD,JPY,EUR");
+
             request.AutomaticDecompression = DecompressionMethods.GZip | DecompressionMethods.Deflate;
 
             using(HttpWebResponse response = (HttpWebResponse)await request.GetResponseAsync())

@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "DUZFDOMjw+5RpNCMoAQwTqtrDxjN6YC9ILPWdxGxRIUuJbq8+oJYYDIZg2IaZNZytSA9FnEmAm/y/VZMqs7scg==",
+  "dgSpecHash": "spz7V28okn4ZMTKJvlA4flkUmI7f/EIgak+YzRCRlS1zauVLvAhB0KVE3ysvpy1kMtl7ZUPynA+X6akkdPDm3g==",
   "success": true,
-  "projectFilePath": "/Users/daniel/Desktop/SexySQL/SexySQL/SexySQL.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/Users/nikita/RiderProjects/sql/SexySQL/SexySQL/SexySQL.csproj",
+  "expectedPackageFiles": [
+    "/Users/nikita/.nuget/packages/dapper/2.0.78/dapper.2.0.78.nupkg.sha512",
+    "/Users/nikita/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/Users/nikita/.nuget/packages/npgsql/6.0.0-preview2/npgsql.6.0.0-preview2.nupkg.sha512",
+    "/Users/nikita/.nuget/packages/system.reflection.emit.lightweight/4.7.0/system.reflection.emit.lightweight.4.7.0.nupkg.sha512",
+    "/Users/nikita/.nuget/packages/system.runtime.compilerservices.unsafe/5.0.0/system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
