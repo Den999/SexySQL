@@ -34,7 +34,7 @@ namespace SexySQL
             var a = await dbConnection.QueryAsync($"insert into birja_for_andrey.currency_data (datetime,dollar,euro,jena) values (dt,dollar,euro,jena);",
                 new
                 {
-                    dt = item.Date,
+                    dt = item.Date.ToString("yyyy-MM-dd hh:mm:ss"),
                     dollar = item.Dollar,
                     euro = item.Euro,
                     yena = item.Jena
