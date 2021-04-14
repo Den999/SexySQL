@@ -1,5 +1,6 @@
 using System;
 using System.Data;
+using System.Linq;
 using System.Threading.Tasks;
 using Dapper;
 using Npgsql;
@@ -19,9 +20,9 @@ namespace SexySQL
         {
             using IDbConnection dbConnection = new NpgsqlConnection(ConnectionString);
             dbConnection.Open();
-            dbConnection.Query(@"CREATE TABLE  IF NOT EXISTS birja_for_andrey.CURRENCY_DATA (
-                ID SERIAL PRIMARY KEY DEFAULT, 
-                DATETIME timestamp NOT NULL, 
+            dbConnection.Query(@"CREATE TABLE  IF NOT EXISTS birja_for_andrey.currency_data(
+                ID SERIAL PRIMARY KEY, 
+                DATETIME TIMESTAMP NOT NULL, 
                 DOLLAR FLOAT NOT NULL, 
                 EURO FLOAT NOT NULL, 
                 JENA FLOAT NOT NULL
@@ -31,9 +32,11 @@ namespace SexySQL
         public async Task InsertCurrencyData(CurrencyData item)
         {
             await using var dbConnection = new NpgsqlConnection(ConnectionString);
-            var a = await dbConnection.QueryAsync($"insert into birja_for_andrey.currency_data (datetime,dollar,euro,jena) values (@dt,@dollar,@euro,@jena);",
+            var num = dbConnection.Query<int>("SELECT count('id') FROM birja_for_andrey.currency_data;");
+            var a = await dbConnection.ExecuteAsync($"insert into birja_for_andrey.currency_data values (@id,@dt,@dollar,@euro,@yena);",
                 new
                 {
+                    id = num.ToArray()[0] + 1,
                     dt = item.Date,
                     dollar = item.Dollar,
                     euro = item.Euro,

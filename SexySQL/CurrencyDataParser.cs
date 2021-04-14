@@ -10,8 +10,8 @@ namespace SexySQL
         {
             var currencyData = new CurrencyData();
             JToken rates = jToken.SelectToken("rates");
-
-            currencyData.Date = DateTime.Parse((string) jToken.SelectToken("date") ?? string.Empty);
+            currencyData.Date = new DateTime(1970,1,1,0,0,0,0);
+            currencyData.Date = currencyData.Date.AddSeconds(int.Parse((string)jToken.SelectToken("timestamp") ?? "0"));
             currencyData.Dollar = (double) rates?.SelectToken("USD");
             currencyData.Euro = (double) rates?.SelectToken("EUR");
             currencyData.Jena = (double) rates?.SelectToken("JPY");
