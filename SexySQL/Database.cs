@@ -31,10 +31,10 @@ namespace SexySQL
         public async Task InsertCurrencyData(CurrencyData item)
         {
             await using var dbConnection = new NpgsqlConnection(ConnectionString);
-            var a = await dbConnection.QueryAsync($"insert into birja_for_andrey.currency_data (datetime,dollar,euro,jena) values (dt,dollar,euro,jena);",
+            var a = await dbConnection.QueryAsync($"insert into birja_for_andrey.currency_data (datetime,dollar,euro,jena) values (@dt,@dollar,@euro,@jena);",
                 new
                 {
-                    dt = item.Date.ToString("yyyy-MM-dd hh:mm:ss"),
+                    dt = item.Date,
                     dollar = item.Dollar,
                     euro = item.Euro,
                     yena = item.Jena
