@@ -2,6 +2,7 @@ using System;
 using Microsoft.VisualBasic;
 using Newtonsoft.Json.Linq;
 
+
 namespace SexySQL
 {
     public static class CurrencyDataParser
