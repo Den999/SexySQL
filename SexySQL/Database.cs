@@ -28,16 +28,17 @@ namespace SexySQL
                 );");
         }
 
-        public void InsertCurrencyData(CurrencyData item)
+        public async Task InsertCurrencyData(CurrencyData item)
         {
-            using IDbConnection dbConnection = new NpgsqlConnection(ConnectionString);
-            dbConnection.Open();
-            dbConnection.Query
-            (
-                @"INSERT INTO birja_for_andrey.currency_data VALUES (1, '2021-01-01 00:00:00', 1.0, 1.0, 1.0)"
-            );
-            // @$"INSERT INTO birja_for_andrey.CURRENCY_DATA  VALUES 
-            //('{item.Date:yyyy-MM-dd HH:mm:ss.f}', '{item.Dollar}', '{item.Euro}', '{item.Jena}');"
+            await using var dbConnection = new NpgsqlConnection(ConnectionString);
+            var a = await dbConnection.QueryAsync($"insert into birja_for_andrey.currency_data (datetime,dollar,euro,jena) values (dt,dollar,euro,jena);",
+                new
+                {
+                    dt = item.Date,
+                    dollar = item.Dollar,
+                    euro = item.Euro,
+                    yena = item.Jena
+                });
         }
     }
 }
