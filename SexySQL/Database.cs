@@ -32,8 +32,10 @@ namespace SexySQL
         {
             using IDbConnection dbConnection = new NpgsqlConnection(ConnectionString);
             dbConnection.Open();
-            dbConnection.Query(
-                "INSERT INTO birja_for_andrey.currency_data VALUES (2, '2021-01-01 00:00:00', 1.0, 1.0, 1.0);");
+            dbConnection.Query
+            (
+                @"INSERT INTO birja_for_andrey.currency_data VALUES (1, '2021-01-01 00:00:00', 1.0, 1.0, 1.0)"
+            );
             // @$"INSERT INTO birja_for_andrey.CURRENCY_DATA  VALUES 
             //('{item.Date:yyyy-MM-dd HH:mm:ss.f}', '{item.Dollar}', '{item.Euro}', '{item.Jena}');"
         }
