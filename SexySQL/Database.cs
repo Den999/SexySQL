@@ -33,11 +33,9 @@ namespace SexySQL
         public async Task InsertCurrencyData(CurrencyData item)
         {
             await using var dbConnection = new NpgsqlConnection(ConnectionString);
-            var num = dbConnection.Query<int>("SELECT count('id') FROM birja_for_andrey.currency_data;");
-            var a = await dbConnection.ExecuteAsync($"insert into birja_for_andrey.currency_data values (@id,@dt,@dollar,@euro,@yena);",
+            var a = await dbConnection.ExecuteAsync($"insert into birja_for_andrey.currency_data (datetime, dollar, euro, jena) values (@dt,@dollar,@euro,@yena);",
                 new
                 {
-                    id = num.ToArray()[0] + 1,
                     dt = item.Date,
                     dollar = item.Dollar,
                     euro = item.Euro,
