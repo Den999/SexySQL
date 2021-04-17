@@ -19,13 +19,6 @@ namespace SexySQL
             Console.WriteLine(currencyData.Dollar);
             Console.WriteLine(currencyData.Jena);
             var db = new Database();
-            /*var item = new CurrencyData
-            {
-                Date = DateTime.Now,
-                Dollar = 81.3,
-                Euro = 90.2,
-                Jena = 0.71,
-            };*/
             Console.WriteLine(currencyData.Date.ToString("yyyy-MM-dd"));
             await db.InsertCurrencyData(currencyData);
         }

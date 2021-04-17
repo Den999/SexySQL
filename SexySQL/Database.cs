@@ -12,11 +12,14 @@ namespace SexySQL
     {
         private const string ConnectionString = 
             "Host=139.28.223.173;Port=5432;User ID=ovsidorenkov;Password=ovsidorenkov;Database=ovsidorenkov_db;";
+        
+        
         public Database()
         {
               CreateTable();
         }
-
+        
+        
         private static void CreateTable()
         {
             using IDbConnection dbConnection = new NpgsqlConnection(ConnectionString);
@@ -29,7 +32,8 @@ namespace SexySQL
                 JENA FLOAT NOT NULL
                 );");
         }
-
+        
+        
         public async Task InsertCurrencyData(CurrencyData item)
         {
             await using var dbConnection = new NpgsqlConnection(ConnectionString);
